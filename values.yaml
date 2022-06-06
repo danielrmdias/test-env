@@ -1,0 +1,15 @@
+services:
+  # applicant-communication-api
+  applicantCommunicationApi:
+    serviceVersion: v1.0.6        
+    
+
+   # application-api
+  application-api:
+    podspec:
+      containers:
+        fpm:
+          tag: v1.17.3
+        nginx:
+          env:
+            DIVIDO_NGINX_CLIENT_MAX_BODY_SIZE: 10m
