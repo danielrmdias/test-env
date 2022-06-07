@@ -1,6 +1,6 @@
 services:
   applicantCommunicationApi:
-    serviceVersion: v1.1.2
+    serviceVersion: '"1234"'
   application-api:
     podspec:
       containers:
