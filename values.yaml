@@ -9,3 +9,5 @@ services:
         nginx:
           env:
             DIVIDO_NGINX_CLIENT_MAX_BODY_SIZE: 10m
+  merchant-api:
+    serviceVersion: v1.19.0
