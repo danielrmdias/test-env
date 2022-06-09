@@ -5,7 +5,7 @@ services:
     podspec:
       containers:
         fpm:
-          tag: v1.17.3
+          tag: v1.17.4
         nginx:
           env:
             DIVIDO_NGINX_CLIENT_MAX_BODY_SIZE: 10m
